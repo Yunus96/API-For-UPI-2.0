@@ -1,0 +1,22 @@
+
+GET http://localhost:2002/api/all
+
+###
+
+POST http://localhost:2002/api/register
+Content-Type: application/json
+
+{
+    "name": "1 Mohammad Yunus",
+    "username": "1 yunus ahmed",
+    "password": "abcdefg"
+}
+
+###
+POST http://localhost:2002/api/login
+Content-Type: application/json
+
+{
+    "username": "11 yunus ahmed",
+    "password": "abcdefg"
+}

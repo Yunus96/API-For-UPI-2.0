@@ -1,0 +1,28 @@
+{
+  "name": "api-for-upi-2.0",
+  "version": "1.0.0",
+  "description": "A pseudo backend application using NodeJS, Express, and MongoDB that can act as a backend for UPI 2.0.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Mohammad Yunus",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bcrypt": "^5.0.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.5",
+    "uniqid": "^5.2.0"
+  }
+}
